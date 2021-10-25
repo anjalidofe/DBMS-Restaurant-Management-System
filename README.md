@@ -1,1 +1,2 @@
-# DBMS-Restaurant-Management-System
+# Restaurant-Management-System
+# DBMS PROJECT
