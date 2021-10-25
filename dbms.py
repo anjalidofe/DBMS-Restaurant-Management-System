@@ -57,7 +57,7 @@ def foods_description():
 	print("+---------+-------------+------+-----+---------+-------+\n| Field   | Type        | Null | Key | Default | Extra |\n+---------+-------------+------+-----+---------+-------+\n| f_id    | int         | NO   | PRI | NULL    |       |\n| f_name  | varchar(10) | YES  | UNI | NULL    |       |\n| f_price | int         | NO   |     | NULL    |       |\n| e_id    | int         | NO   | MUL | NULL    |       |\n+---------+-------------+------+-----+---------+-------+")
 
 def create_table_customers():
-	my_cursor.execute("create table customers(c_id int(7), c_name varchar(20), c_phone varchar(11), c_address varchar(25), c_occupation varchar(6), primary key(c_id));")
+	my_cursor.execute("create table customers(c_id int(7), c_name varchar(20), c_phone varchar(11), c_address varchar(25), c_occupation varchar(10), primary key(c_id));")
 
 def cutomers_description():
 	print("+--------------+-------------+------+-----+---------+-------+\n| Field        | Type        | Null | Key | Default | Extra |\n+--------------+-------------+------+-----+---------+-------+\n| c_id         | int         | NO   | PRI | NULL    |       |\n| c_name       | varchar(20) | YES  |     | NULL    |       |\n| c_phone      | varchar(11) | YES  |     | NULL    |       |\n| c_address    | varchar(25) | YES  |     | NULL    |       |\n| c_occupation | varchar(10)  | YES  |     | NULL    |       |\n+--------------+-------------+------+-----+---------+-------+")
