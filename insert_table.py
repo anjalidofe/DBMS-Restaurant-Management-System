@@ -49,7 +49,7 @@ def insert_employees():
 		e_address = input("Enter employee address: ")
 		e_salary = int(input("Enter salary in Rupees: "))
 		j_id = int(input("Enter job ID for employee: "))
-		my_cursor.execute("insert into employees(e_name, e_phone, e_address, e_salary, j_id) values('{}','{}','{}',{},{})".format(e_id, e_name, e_phone, e_address, e_salary, j_id))
+		my_cursor.execute("insert into employees(e_name, e_phone, e_address, e_salary, j_id) values('{}','{}','{}',{},{})".format(e_name, e_phone, e_address, e_salary, j_id))
 		mydb.commit()
 		console.print("Employee added to database",style = "bold red on white")
 	except:
