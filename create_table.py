@@ -25,7 +25,7 @@ def create_table_tables():
 	my_cursor.execute("create table tables(t_id int(5) AUTO_INCREMENT, capacity int(2) not null, e_id int(7) not null, primary key(t_id), foreign key(e_id) references employees(e_id));")
 
 def create_table_food():
-	my_cursor.execute("create table foods(f_id int(7), f_name varchar(10) unique, f_price int(5) not null, e_id int(7) not null, primary key(f_id), foreign key(e_id) references employees(e_id))")
+	my_cursor.execute("create table foods(f_id int(7) AUTO_INCREMENT, f_name varchar(10) unique, f_price int(5) not null, e_id int(7) not null, primary key(f_id), foreign key(e_id) references employees(e_id))")
 
 def create_table_customers():
 	my_cursor.execute("create table customers(c_id int(7) AUTO_INCREMENT, c_name varchar(20), c_phone varchar(11), c_address varchar(25), c_occupation varchar(10), primary key(c_id));")
