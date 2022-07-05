@@ -18,7 +18,7 @@
 ![Employee_GUI](https://user-images.githubusercontent.com/66844605/140639440-a20fb8dc-b991-4138-a62e-1aec4e234302.png)
 ![Customer_GUI](https://user-images.githubusercontent.com/66844605/140639452-d6057f44-540c-45c3-8964-0f512de0efbe.png)
 
-## We also have provided a command line menu driven program which is not broing or dull but rather is colorful with well formed tables
+## We also have provided a command line menu driven program which is not boring or dull but rather is colorful with well formed tables
 
 ![colorful commandline menu for inserting](https://user-images.githubusercontent.com/66844605/140639502-edc93168-0aec-4f6e-90f9-4338bcc09d81.png)
 ![Colorful CommandLine Menu for viewing table](https://user-images.githubusercontent.com/66844605/140639508-7014e295-def4-4c12-8a12-851586c3b937.png)
